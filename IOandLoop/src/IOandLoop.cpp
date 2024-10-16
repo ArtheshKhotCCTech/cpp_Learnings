@@ -1,6 +1,8 @@
 #include <iostream>
+#include "../HeaderFiles/Cinput.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    Cinput c;
+    c.inputTestcases();
 }
