@@ -128,10 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Cinput.cpp" />
+    <ClCompile Include="src\Coutput.cpp" />
     <ClCompile Include="src\IOandLoop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\Cinput.h" />
+    <ClInclude Include="HeaderFiles\Coutput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

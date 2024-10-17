@@ -1,8 +1,11 @@
 #include <iostream>
 #include "../HeaderFiles/Cinput.h"
+#include "../HeaderFiles/Coutput.h"
 
 int main()
 {
-    Cinput c;
-    c.inputTestcases();
+    Cinput ci;
+    //ci.inputTestcases();
+    Coutput co;
+    co.outputTestcases();
 }

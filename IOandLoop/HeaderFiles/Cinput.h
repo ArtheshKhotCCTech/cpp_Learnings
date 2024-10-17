@@ -4,5 +4,5 @@
 class Cinput
 {
 public:
-	void inputTestcases();
+	//void inputTestcases();
 };
