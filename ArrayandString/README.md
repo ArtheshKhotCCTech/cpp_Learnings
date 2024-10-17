@@ -9,3 +9,4 @@
 #### For array == operator does not work.
 
 ### Snapshots -
+![image](https://github.com/user-attachments/assets/060a4116-cf97-4dc2-a584-c31d4d9430fd)
