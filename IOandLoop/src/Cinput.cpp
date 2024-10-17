@@ -22,3 +22,24 @@
 //	}
 //	
 //}
+
+std::vector<int> Cinput::getInput()
+{
+    std::vector<int> scores;
+    int score;
+
+    std::cout << "Enter student scores (-1 to stop):\n";
+    while (true) {
+        std::cin >> score;
+        assert(!std::cin.fail());
+        if (score == -1) break;
+        if (score >= 0 && score <= 100) {
+            scores.push_back(score);
+        }
+        else {
+            std::cout << "Please enter a valid score (0-100).\n";
+        }
+    }
+
+    return scores;
+}

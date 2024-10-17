@@ -130,10 +130,19 @@
     <ClCompile Include="src\Cinput.cpp" />
     <ClCompile Include="src\Coutput.cpp" />
     <ClCompile Include="src\IOandLoop.cpp" />
+    <ClCompile Include="src\Loop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\Cinput.h" />
     <ClInclude Include="HeaderFiles\Coutput.h" />
+    <ClInclude Include="HeaderFiles\Loop.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="IOandLoop.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
