@@ -21,9 +21,15 @@
     <ClCompile Include="src\IOandLoop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Coutput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HeaderFiles\Cinput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderFiles\Coutput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
