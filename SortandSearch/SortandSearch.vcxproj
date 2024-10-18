@@ -18,11 +18,23 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MySearch.cpp" />
+    <ClCompile Include="src\MySort.cpp" />
+    <ClCompile Include="src\SortandSearch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HeaderFiles\MySearch.h" />
+    <ClInclude Include="HeaderFiles\MySort.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{6ccd2109-28a1-4d7b-bd6d-713afeb0d19c}</ProjectGuid>
-    <RootNamespace>IOandLoop</RootNamespace>
+    <ProjectGuid>{939f9bb8-16e7-41fd-9938-027ff51e267a}</ProjectGuid>
+    <RootNamespace>SortandSearch</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -126,24 +138,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="src\Cinput.cpp" />
-    <ClCompile Include="src\Coutput.cpp" />
-    <ClCompile Include="src\IOandLoop.cpp" />
-    <ClCompile Include="src\Loop.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="HeaderFiles\Cinput.h" />
-    <ClInclude Include="HeaderFiles\Coutput.h" />
-    <ClInclude Include="HeaderFiles\Loop.h" />
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="IOandLoop.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="README.md" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
