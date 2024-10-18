@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstantsandInline", "Const
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReferenceandPointers", "ReferenceandPointers\ReferenceandPointers.vcxproj", "{6F2D4A11-1545-4B93-AB33-A48B041980A6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunctionOverloading", "FunctionOverloading\FunctionOverloading.vcxproj", "{73D15427-04A1-4DCF-9766-3663181D9990}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Release|x64.Build.0 = Release|x64
 		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Release|x86.ActiveCfg = Release|Win32
 		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Release|x86.Build.0 = Release|Win32
+		{73D15427-04A1-4DCF-9766-3663181D9990}.Debug|x64.ActiveCfg = Debug|x64
+		{73D15427-04A1-4DCF-9766-3663181D9990}.Debug|x64.Build.0 = Debug|x64
+		{73D15427-04A1-4DCF-9766-3663181D9990}.Debug|x86.ActiveCfg = Debug|Win32
+		{73D15427-04A1-4DCF-9766-3663181D9990}.Debug|x86.Build.0 = Debug|Win32
+		{73D15427-04A1-4DCF-9766-3663181D9990}.Release|x64.ActiveCfg = Release|x64
+		{73D15427-04A1-4DCF-9766-3663181D9990}.Release|x64.Build.0 = Release|x64
+		{73D15427-04A1-4DCF-9766-3663181D9990}.Release|x86.ActiveCfg = Release|Win32
+		{73D15427-04A1-4DCF-9766-3663181D9990}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
