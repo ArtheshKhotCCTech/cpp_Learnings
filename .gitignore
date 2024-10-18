@@ -9,3 +9,5 @@
 *.pdb
 /.gitignore
 /.gitignore
+/ConstantsandInline/x64/Debug
+/ReferenceandPointers/x64/Debug
