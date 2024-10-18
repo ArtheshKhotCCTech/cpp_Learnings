@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataStructureContainers", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConstantsandInline", "ConstantsandInline\ConstantsandInline.vcxproj", "{30B24A99-FA4E-4A70-8ED5-FFA01A51974D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReferenceandPointers", "ReferenceandPointers\ReferenceandPointers.vcxproj", "{6F2D4A11-1545-4B93-AB33-A48B041980A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{30B24A99-FA4E-4A70-8ED5-FFA01A51974D}.Release|x64.Build.0 = Release|x64
 		{30B24A99-FA4E-4A70-8ED5-FFA01A51974D}.Release|x86.ActiveCfg = Release|Win32
 		{30B24A99-FA4E-4A70-8ED5-FFA01A51974D}.Release|x86.Build.0 = Release|Win32
+		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Debug|x64.ActiveCfg = Debug|x64
+		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Debug|x64.Build.0 = Debug|x64
+		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Debug|x86.ActiveCfg = Debug|Win32
+		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Debug|x86.Build.0 = Debug|Win32
+		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Release|x64.ActiveCfg = Release|x64
+		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Release|x64.Build.0 = Release|x64
+		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Release|x86.ActiveCfg = Release|Win32
+		{6F2D4A11-1545-4B93-AB33-A48B041980A6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
