@@ -9,3 +9,4 @@
 #### Implemented my own class of stack.
 
 ### Snapshots -
+![image](https://github.com/user-attachments/assets/dd309454-bbd9-4e5e-b0ba-62cd0e62faa8)
