@@ -9,3 +9,4 @@
 #### Learned how to handle exceptions for e.g. array index out of bounds, null pointer dereferencing, etc.
 
 ### Snapshots -
+![image](https://github.com/user-attachments/assets/7b2458aa-191e-4d70-b19f-c58dcec85e50)
