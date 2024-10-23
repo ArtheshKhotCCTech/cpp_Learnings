@@ -9,3 +9,4 @@
 #### A copy constructor is essential when an object contains dynamically allocated memory, ensuring that a deep copy is made when an object is copied.
 
 ### Snapshots
+![image](https://github.com/user-attachments/assets/72ecdb3a-e778-4cb4-ba87-cc7347e661e9)
