@@ -20,17 +20,37 @@ int main() {
 
     //Array out of bounds
 
-    //int arr[5] = { 1,2,3,4,5 };
-    //int index;
-    //try {
-    //    std::cout << "Enter array index 0-4" << std::endl;
-    //    std::cin >> index;
-    //    if (index < 0 || index >= 5) {
-    //        throw MyException("Index out of bounds");
-    //    }
-    //    std::cout
-    //}
+    int arr[5] = { 1, 2, 3, 4, 5 };
+    int index;
 
+    try {
+        std::cout << "Enter array index (0-4): ";
+        std::cin >> index;
+
+        if (index < 0 || index >= 5) {
+            throw MyException("Index out of bounds!");
+        }
+
+        std::cout << "Element at index " << index << ": " << arr[index] << std::endl;
+    }
+    catch (const MyException& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+    }
+
+    //Null pointer dereferencing
+
+    int* ptr = nullptr;
+
+    try {
+        if (ptr == nullptr) {
+            throw MyException("Null pointer dereference.");
+        }
+
+        std::cout << *ptr << std::endl;
+    }
+    catch (const MyException& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+    }
 
     return 0;
 }
