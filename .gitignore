@@ -12,3 +12,6 @@
 /ConstantsandInline/x64/Debug
 /ReferenceandPointers/x64/Debug
 /FunctionOverloading/x64/Debug
+/OperatorOverloading/x64/Debug
+/.gitignore
+/ExceptionHandling/x64/Debug
